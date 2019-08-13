@@ -30,10 +30,10 @@ Hi it's quite a lot of codes so I just import main dashboard.php page where all 
       <?php
 
 
-      $dbServername = "127.0.0.1:3306";
-      $dbUsername = "u465015952_admin";
-      $dbPassword = "kebabas159";
-      $dbName = "u465015952_farm";
+      $dbServername = "";
+      $dbUsername = "";
+      $dbPassword = "";
+      $dbName = "";
 
 
 
@@ -79,9 +79,9 @@ Hi it's quite a lot of codes so I just import main dashboard.php page where all 
                     //BUILD BUILDING SCRIPT
 
                     $config = [
-                      $dbserver = "mysql:host=127.0.0.1:3306;dbname=u465015952_farm;",
-                      $dblogin = "u465015952_admin",
-                      $dbPswd = "kebabas159",
+                      $dbserver = "mysql:host=;dbname=;",
+                      $dblogin = "",
+                      $dbPswd = "",
 
                     ];
                     try {
