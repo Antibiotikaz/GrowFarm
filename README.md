@@ -214,7 +214,7 @@ session_start();
 
 
  <div class="col-4 text-center">
- <h2>Resursai</h2>
+ <h2>Resources</h2>
  <ul id="Resusrsai">
    <li class="Resursai-li"><img src="img/wood.png" alt="Medis"> : <?php echo $wood;  ?></li>
    <li class="Resursai-li"><img src="img/wheat.png" alt="Javai"> : <?php echo $wheat; ?></li>
@@ -224,12 +224,12 @@ session_start();
  </ul>
   </div>
   <div class="col-4 text-center">
- <h2>Produkcija</h2>
+ <h2>Production</h2>
  <ul id="Resusrsai">
-   <li class="Resursai-li"><img src="img/wood.png" alt="Medis"> : <?php echo $wood_production; ?> per valandą</li>
-   <li class="Resursai-li"><img src="img/wheat.png" alt="Javai"> : <?php echo $wheat_production; ?>per valandą</li>
-   <li class="Resursai-li"><img src="img/cabbage.png" alt="Darzove"> : <?php echo $cabage_production; ?>per valandą</li>
-   <li class="Resursai-li"><img src="img/watermelon.png" alt="Vaisiai"> : <?php echo $fruit_production; ?>per valandą</li>
+   <li class="Resursai-li"><img src="img/wood.png" alt="Medis"> : <?php echo $wood_production; ?> per hour</li>
+   <li class="Resursai-li"><img src="img/wheat.png" alt="Javai"> : <?php echo $wheat_production; ?>per hour</li>
+   <li class="Resursai-li"><img src="img/cabbage.png" alt="Darzove"> : <?php echo $cabage_production; ?>per hour</li>
+   <li class="Resursai-li"><img src="img/watermelon.png" alt="Vaisiai"> : <?php echo $fruit_production; ?>per hour</li>
 
  </ul>
 
@@ -242,7 +242,7 @@ session_start();
 
 
  <div class="col-4 inventorius text-center">
- <h2>Inventorius</h2>
+ <h2>Inventor</h2>
  <ul id="Resusrsai">
    <li class="Resursai-li"><?php echo $gold; ?>: <img src="img/gold.png" alt="Pinigai"></li>
    <li class="Resursai-li">5:<img src="img/respect.png" alt="Pagarba"></li>
@@ -365,3 +365,4 @@ $(".buildingBox").click(function(){
 </body>
 </html>
 
+I have no idea why GitHub messis up my code but you can try it out on www.growfarm.lt its only one page of code.
