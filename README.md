@@ -4,6 +4,43 @@ Hi it's quite a lot of codes so I just import main dashboard.php page where all 
 
 
 
+
+         <?php
+session_start();
+
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="lt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stilius.php">
+    <script src="script.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <title>GrowFarm</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid header text-center ">
+        <div class="row">
+          <div class="col-2 bg-warning">
+            <?php
+                if (isset($_SESSION['u_id'])) {
+                  echo '<p class="text-success" id="login-text"> You are logged in</p>'.$_SESSION['u_uid'];
+                }
+             ?>
+           </div>
+
           <div class="col-10 bg-warning">
             <ul class="nav justify-content-center">
               <li class="nav-item">
@@ -327,3 +364,4 @@ $(".buildingBox").click(function(){
 </script>
 </body>
 </html>
+
